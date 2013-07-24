@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" name="Default" comment="" />
+    <list default="true" id="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/README.md" />
+    </list>
     <ignored path="production_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/base.html" changelist="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" time="1374527648916" ignored="false" />
@@ -21,6 +23,7 @@
     <file path="/404.html" changelist="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" time="1374555217177" ignored="false" />
     <file path="/500.html" changelist="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" time="1374555230380" ignored="false" />
     <file path="/Dummy.txt" changelist="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" time="1374625474600" ignored="false" />
+    <file path="/README.md" changelist="afd02ef2-322c-4ad9-870e-0ba4c1b58c4b" time="1374626325421" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,10 +72,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="128" selection-end="128" vertical-scroll-proportion="0.5011136">
+            <state line="15" column="5" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.20044543">
               <folding />
             </state>
           </provider>
@@ -114,15 +126,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/production_test/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="73" selection-start="1047" selection-end="1047" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/manage.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -150,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/pages/templates/single.html" />
         <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/pages/templates/newsItem_list_snippet.html" />
         <option value="$PROJECT_DIR$/pages/templates/archive.html" />
@@ -166,6 +168,7 @@
         <option value="$PROJECT_DIR$/pages/templatetags/pages_tags.py" />
         <option value="$PROJECT_DIR$/pages/views.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -417,14 +420,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1916" height="830" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32942432" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.671831" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24973261" sideWeight="0.671831" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -499,13 +502,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pages/templates/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="10" selection-start="1075" selection-end="1075" vertical-scroll-proportion="0.63829786">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="15" column="32" selection-start="583" selection-end="583" vertical-scroll-proportion="0.389948">
@@ -612,7 +608,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="128" selection-end="128" vertical-scroll-proportion="0.5011136">
+        <state line="15" column="5" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.20044543">
           <folding />
         </state>
       </provider>
