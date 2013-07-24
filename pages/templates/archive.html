@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block title %}News Items{% endblock %}
+
+{% block description %}List of the most recent news items{% endblock %}
+
+{% block content %}
+    <h1>News Archives</h1>
+    <div class="row">
+    {%  for item in items %}
+        <div class="span4">
+            <h2><a href="{{ item.get_absolute_url }}">{{ item.title|title }}</a></h2>
+            <p>{{ item.published_date|date }} - {{ item.author.username }}<br>{{ item.url|urlize }}</p>
+            <p>{{ item.content|truncatewords_html:30 }}</p>
+        </div>
+    {% endfor %}
+    </div>
+    <hr>
+{% endblock %}
+
+{% block footer_script %}
+{% endblock %}

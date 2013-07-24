@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% load pages_tags %}
+
+{% block title %}Server Test Project - Welcome{% endblock %}
+
+{% block description %}A website to help me learn how to deploy a django app to production{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="well span6">
+            <h1>Welcome</h1>
+            <h2>You've found my production server test.</h2>
+            <p>It was created and is currently maintained by <a href="mailto:john.reeve@lubbock-media.com">John Reeve</a></p>
+        </div>
+        <div class="span4">
+            <h3>Most Recent News</h3>
+            {% most_recent_news 2 %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer_script %}
+{% endblock %}

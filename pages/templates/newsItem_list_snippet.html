@@ -1,0 +1,5 @@
+<ul>
+    {% for item in items %}
+        <li><a href="{{ item.get_absolute_url }}">{{ item.title|title }}</a><br>{{ item.published_date|date }}</li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% load pages_tags %}
+
+{% block title %}Site Error{% endblock %}
+
+{% block description %}{% endblock %}
+
+{% block content %}
+    <div class="row">
+        <div class="well span6">
+            <h1>SORRY -- Something went wrong.</h1>
+            <p>We have notified the site admin.</p>
+        </div>
+        <div class="span4">
+            <h3>Most Recent News</h3>
+            {% most_recent_news 2 %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block footer_script %}
+{% endblock %}
