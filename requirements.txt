@@ -1,0 +1,12 @@
+Django==1.5.1
+GDAL==1.10.0
+South==0.8.1
+distribute==0.6.45
+numpy==1.7.1
+psycopg2==2.5.1
+stevedore==0.9.1
+vboxapi==1.0
+virtualenv==1.9.1
+virtualenv-clone==0.2.4
+virtualenvwrapper==4.0
+wsgiref==0.1.2
